@@ -7,7 +7,7 @@ def get_quote():
         "Content-Type": "application/json"
     }
     payload = {
-        "model": "llama3-8b-8192",
+        "model": "llama-3.3-70b-versatile",
         "messages": [
             {"role": "system", "content": "You are a motivational coach."},
             {"role": "user", "content": "Give me a short motivational quote."}
