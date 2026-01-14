@@ -3,7 +3,7 @@ import requests
 
 def get_quote():
     headers = {
-        "Authorization": "Bearer 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",  # Ensure this is valid
+        "Authorization": "Bearer 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",  # Ensure this is valid
         "Content-Type": "application/json"
     }
     payload = {
